@@ -1,0 +1,37 @@
+.filterBar {
+    display: flex;
+    position: relative;
+    left: 100px;
+    margin-top: 25px;
+}
+
+.desplegables {
+    padding: 7px;
+    font-size: 14px;
+    border: 1px solid #904e95;
+    border-radius: 4px;
+    background-color: #fcfcfc;
+    width: 200px;
+}
+
+.botones {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1e7ff;
+    color: #000000;
+    cursor: pointer;
+    margin-left: 2px;
+}
+
+.botones:hover {
+    background-color: #d6bef8;
+}
+
+.botones:active {
+    background-color: #fcfcfc;
+}

@@ -1,0 +1,135 @@
+.form {
+    background-color: #f0f0ff;
+    background-size: cover;
+    min-height: 100vh;
+    padding-top: 150px;
+    flex-direction: column;
+
+}
+
+.error {
+    color: red;
+}
+
+.round {
+    width: 25px;
+    height: 25px;
+    border: solid 1px black;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.round_presed {
+    width: 25px;
+    height: 25px;
+    border: solid 1px black;
+    border-radius: 50%;
+    background-color: #904e95;
+}
+
+.formConteiner {
+    border: #904e95 solid 1px;
+    box-shadow: 0 4px 6px #904e95;
+    display: inline-block;
+    padding: 50px;
+    border-radius: 50px;
+    width: 400px;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    background-image: linear-gradient(45deg, #904e95, #f0f0ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.section {
+    margin: 10px;
+}
+
+.section_seasons {
+    margin-top: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteiner_season {
+    display: flex;
+    align-items: center;
+}
+
+.name_section {
+    font-size: 25px;
+}
+
+.input_number {
+    padding: 7px;
+    font-size: 14px;
+    border: 1px solid #904e95;
+    border-radius: 4px;
+    background-color: #fff;
+    width: 200px;
+    color: #904e95;
+}
+
+.input_text {
+    padding: 7px;
+    font-size: 14px;
+    border: 1px solid #904e95;
+    border-radius: 4px;
+    background-color: #fff;
+    width: 200px;
+}
+
+.input_range {
+    width: 200px;
+    height: 5px;
+    /* Oculta el control de apariencia predeterminada */
+    background-color: #ccc;
+    border-radius: 5px;
+
+}
+
+.submit {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #3a3a3a;
+}
+
+.submit:active {
+    background-color: #904e95;
+}
+.conteiner_countries{
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+}
+.countrie_selected{
+    display: flex;
+    border: 1px solid #904e95;
+    background-color: #fcfcfc;
+    border-radius: 20px;
+    margin: 5px;
+    
+    
+}
+.remove_p{
+    background-color: red;
+    padding: 2px;
+    border-radius: 50%;
+    margin-left: 3px;
+
+}
